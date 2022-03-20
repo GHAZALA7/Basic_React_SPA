@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (min-width: 992px) {
+  .App{
+      width: 100%;
+      display: inline-block;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.image-style {
+    width: 200px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.App-link {
+  color: #61dafb;
+}
+
+
+.page-content {
+  width: 100%;
+  display: inline-flex;
+}
+
+.product-display-style {
+  width: 50%;
+}
+
+.content-display {
+  width: 50%;
+}
+
+.content-display > .heading {
+    font-weight: 600;
+    font-size: 100px;
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+.content-display > .description {
+    font-size: 50px;
+    text-align: left;
+    width: 75%;
+    margin: 100px 100px 100px 0px;
+}
+
+.color-heading{
+  font-weight: 600;
+  font-size: 75px;
+  text-align: left;
+}
+
+.displayWatch {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.featureList-styling {
+  display: flex;
+}
+
+.heartrate-styling{
+  padding: 20px;
+  margin: 20px;
+  width: 15%;
+  height: 125px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px #ccc;
+  border-color: cornsilk;
+  font-size: 50px;
+  background-color: black;
+  color: antiquewhite;
+}
+
+.time-styling{
+  padding: 20px;
+  margin: 20px 20px 20px 0px;
+  width: 10%;
+  height: 125px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px #ccc;
+  border-color: cornsilk;
+  font-size: 50px;
+  background-color: black;
+  color: antiquewhite;
+}

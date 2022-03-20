@@ -1,0 +1,39 @@
+.FitBitOptionsStyle {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.FitBitButtonStyle {
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px #ccc;
+    border-color: cornsilk;
+} 
+
+.FitBitButtonStyle :hover {
+    padding: 10px;
+    margin: 10px;
+    border: aquamarine;
+} 
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.container > .centered {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 150px;
+    align-items: center;
+    color: aquamarine;
+}
+
+/* .Feature {
+    font-size: ;
+} */
