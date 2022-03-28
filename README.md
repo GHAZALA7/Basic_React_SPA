@@ -31,7 +31,7 @@ In this project, a user can
 PS: The WebApp has been made locally!! 😊
 
 # Commands
-1. npx react-app-start /foldername  ........(Mind it, the foldername is lowercase)
+1. npx create-react-app /foldername  ........(Mind it, the foldername is lowercase)
 2. cd foldername
 3. npm start
 
